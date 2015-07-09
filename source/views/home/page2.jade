@@ -1,0 +1,23 @@
+.row.text-center
+  .col-xs-10
+    h2 How many people use the Internet at your home?
+.row.text-center.bottom-space
+  .col-xs-6.col-sm-3.page2-left
+    span.page2-minus(ng-click="intUseMinus()") -
+    span.page2-counter {{intUseCounter}}
+    span.page2-plus(ng-click="intUsePlus()") +
+  button.proceed(ui-sref="page3")
+.share
+  .col-xs-7
+    ul.steps
+      li(ui-sref="page1") 1
+      li(ui-sref="page2") 2
+      li(ui-sref="page3") 3
+      li 4
+      li 5
+      li 6
+      li 7
+
+  .col-xs-3
+    .counting {{totalCounter}}
+    .counting-mbps Mbps

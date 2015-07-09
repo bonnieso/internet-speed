@@ -1,0 +1,304 @@
+.expand {
+  width: 100%;
+  font-size: 1.2em;
+  padding: 5px;
+  margin-left: 35%;
+}
+
+body{
+  background-color: #182236;
+}
+
+.main-container {
+  background-color:rgba(134,140,192,0.5);
+  background: url(http://www.highspeedinternet.com/includes/highspeedinternet/hmsdin/images/speedometer.svg) no-repeat center 70%, -webkit-linear-gradient(#182236 60%, #272e4c);
+  background: url(http://www.highspeedinternet.com/includes/highspeedinternet/hmsdin/images/speedometer.svg) no-repeat center 70%, linear-gradient(#182236 60%, #272e4c);
+  background-size: 80%, auto;
+  width: 100vw;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-top: 7%;
+}
+
+.logo {
+  display: block;
+  width: 84px;
+  height: 80px;
+  background: transparent url(http://www.highspeedinternet.com/includes/highspeedinternet/hmsdin/images/logo.svg) no-repeat center center;
+  margin: 0 auto 1em;
+  text-indent: -999em;
+  position: relative;
+  z-index: 20;
+}
+
+.logo-text{
+  color: #314772;
+}
+
+.page1-style{
+  color: #6F8EE3;
+  font-size: 2em;
+}
+
+.incrementer button {
+  font-size: 1rem;
+  position: relative;
+  background: #0b101a;
+  text-indent: -999em;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  margin: 0 .8em;
+}
+
+.counter{
+  color: #a9c1ff;
+  font-size: 5em;
+}
+
+.counting {
+    color: #ee455c;
+    font-size: 5em;
+    margin-left: 20%;
+}
+
+.counting-mbps {
+    color: #a9c1ff;
+    font-size: 2em;
+    margin-left: 20%;
+}
+
+.steps li{
+  font-size: 2em;
+  padding-right: 20px;
+}
+
+.steps li:hover{
+  color: #ee455c;
+  cursor: pointer;
+}
+
+h1{
+  font-family: 'museo-sans-rounded', sans-serif;
+  color: white;
+  font-size: 5em;
+  font-weight: 300;
+  margin-left: 18%;
+}
+
+.subtitle{
+  font-size: 1.8em;
+}
+
+.bottom-space{
+  margin-bottom: 15%;
+}
+
+.page2-left{
+  margin-left: 35%;
+}
+
+.page2-counter{
+  font-size: 10em;
+  color: #a9c1ff;
+}
+
+.page2-minus{
+  font-size: 2em;
+  background: #0b101a;
+  border-radius: 50%;
+  border: none;
+  margin: 0 .8em;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.page2-plus{
+  font-size: 2em;
+  background: #0b101a;
+  border-radius: 50%;
+  border: none;
+  margin: 0 .8em;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.minus{
+  font-size: 1.5em;
+  background: #0b101a;
+  border-radius: 50%;
+  max-height: 40px;
+  border: none;
+  margin: 0 .8em;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.plus{
+  font-size: 1.5em;
+  background: #0b101a;
+  border-radius: 50%;
+  max-height: 40px;
+  border: none;
+  margin: 0 .8em;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+h2{
+  color: #FFFFFF;
+  font-size: 3em;
+  margin-left: 18%;
+}
+
+h3{
+  display: block;
+  color: #ee455c;
+  background: transparent;
+  font-size: 13em;
+  margin-left: 20%;
+}
+
+.mbps {
+  display: block;
+  color: #ee455c;
+  background: transparent;
+  font-size: 4em;
+  margin-left: 20%;
+}
+
+.proceed {
+  color: white;
+  background: #ee455c url(http://www.highspeedinternet.com/includes/highspeedinternet/hmsdin/images/arrow.svg) no-repeat 70% center;
+  background-size: 25%;
+  display: block;
+  text-indent: -999em;
+  position: fixed;
+  top: 50%;
+  right: 0;
+  font-weight: 700;
+  width: 60px;
+  height: 94px;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  border-radius: 80px 0 0 80px;
+  border: none;
+  -webkit-animation: slideInLeft .2s ease-out;
+  animation: slideInLeft .2s ease-out;
+  text-decoration: none;
+  outline: none;
+}
+
+.fullBtn {
+  color: white;
+  background: #ee455c;
+  text-decoration: none;
+  font-size: 1.66667rem;
+  padding: .8em;
+  width: 80%;
+  border-radius: 50px;
+  outline: none;
+  max-width: 320px;
+  border: 0px;
+}
+
+.zip {
+  background: #5679d9;
+  border: none;
+  color: white;
+  font-size: 1.7em;
+  padding: 1em 2em 1em 2em;
+  border-radius: 50px;
+  display: inline-block;
+  max-width: 330px;
+  position: relative;
+  outline: none;
+  margin-left: 20%;
+  margin-top: 30px;
+}
+
+.button-img{
+  width: 76px;
+  float: left;
+  color: white;
+}
+
+.restart{
+  color: #5679d9;
+  font-size: 1.8em;
+  margin-top: 35px;
+  margin-bottom: 20%;
+  margin-left: 20%;
+}
+
+.share {
+  background: #182236;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 20;
+  width: 100%;
+  border-top: 1px solid #5679d9;
+}
+
+.share ul {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none outside;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 200px;
+  height: 130px;
+}
+
+.share button {
+  display: inline-block;
+  text-indent: -999em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: none;
+}
+
+.share button.facebook {
+  background-color: #316fae;
+  background-image: url(http://www.highspeedinternet.com/includes/highspeedinternet/hmsdin/images/facebook.svg);
+  background-size: 30%;
+}
+
+.share button.twitter {
+  background-color: #00a7e8;
+  background-image: url(http://www.highspeedinternet.com/includes/highspeedinternet/hmsdin/images/twitter.svg);
+  background-size: 55%;
+}
+
+.share button.pinterest {
+  background-color: #db4638;
+  background-image: url(http://www.highspeedinternet.com/includes/highspeedinternet/hmsdin/images/pinterest.svg);
+  background-size: 60%;
+}

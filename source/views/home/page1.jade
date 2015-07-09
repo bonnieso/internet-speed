@@ -1,0 +1,43 @@
+.row.text-center
+  .col-xs-10
+    h2 How many of each type of device regularly connects to your home network?
+.row.text-center.bottom-space
+  .col-xs-6.col-sm-3
+    .page1-style Computers
+      div
+        span.minus(ng-click="computerMinus()") -
+        span.counter {{computerCounter}}
+        span.plus(ng-click="computerPlus()") +
+  .col-xs-6.col-sm-3
+    .page1-style Tablets/Smartphones
+      div
+        span.minus(ng-click="phoneMinus()") -
+        span.counter {{phoneCounter}}
+        span.plus(ng-click="phonePlus()") +
+  .col-xs-6.col-sm-3
+    .page1-style Gaming Consoles
+      div
+        span.minus(ng-click="gameMinus()") -
+        span.counter {{gameCounter}}
+        span.plus(ng-click="gamePlus()") +
+  .col-xs-6.col-sm-3
+    .page1-style TV Streaming Boxes
+      div
+        span.minus(ng-click="tvMinus()") -
+        span.counter {{tvCounter}}
+        span.plus(ng-click="tvPlus()") +
+  button.proceed(ui-sref="page2")
+.share
+  .col-xs-7
+    ul.steps
+      li(ui-sref="page1") 1
+      li(ui-sref="page2") 2
+      li(ui-sref="page3") 3
+      li 4
+      li 5
+      li 6
+      li 7
+
+  .col-xs-3
+    .counting {{totalCounter}}
+    .counting-mbps Mbps
